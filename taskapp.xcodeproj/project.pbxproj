@@ -13,6 +13,7 @@
 		040D58D827D0B09C00E13844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040D58D627D0B09C00E13844 /* Main.storyboard */; };
 		040D58DA27D0B09D00E13844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040D58D927D0B09D00E13844 /* Assets.xcassets */; };
 		040D58DD27D0B09D00E13844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040D58DB27D0B09D00E13844 /* LaunchScreen.storyboard */; };
+		0419988127D1F79E005B9290 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419988027D1F79E005B9290 /* Task.swift */; };
 		0445148127D1026B00AC727D /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445148027D1026B00AC727D /* InputViewController.swift */; };
 		2B650F866EB300C963C0BEE0 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721DEBA43B9F7AF03C619EFE /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		040D58D927D0B09D00E13844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040D58DC27D0B09D00E13844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040D58DE27D0B09D00E13844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0419988027D1F79E005B9290 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		0445148027D1026B00AC727D /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		5375BA878020DD1B53A0E189 /* Pods-taskapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskapp.release.xcconfig"; path = "Target Support Files/Pods-taskapp/Pods-taskapp.release.xcconfig"; sourceTree = "<group>"; };
 		721DEBA43B9F7AF03C619EFE /* Pods_taskapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 			children = (
 				040D58D027D0B09C00E13844 /* AppDelegate.swift */,
 				040D58D227D0B09C00E13844 /* SceneDelegate.swift */,
+				0419988027D1F79E005B9290 /* Task.swift */,
 				040D58D427D0B09C00E13844 /* ViewController.swift */,
 				0445148027D1026B00AC727D /* InputViewController.swift */,
 				040D58D627D0B09C00E13844 /* Main.storyboard */,
@@ -91,7 +94,6 @@
 				DA0841539E9DA4193A4ADDE6 /* Pods-taskapp.debug.xcconfig */,
 				5375BA878020DD1B53A0E189 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 			files = (
 				040D58D527D0B09C00E13844 /* ViewController.swift in Sources */,
 				040D58D127D0B09C00E13844 /* AppDelegate.swift in Sources */,
+				0419988127D1F79E005B9290 /* Task.swift in Sources */,
 				040D58D327D0B09C00E13844 /* SceneDelegate.swift in Sources */,
 				0445148127D1026B00AC727D /* InputViewController.swift in Sources */,
 			);
@@ -369,6 +372,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -398,6 +402,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
